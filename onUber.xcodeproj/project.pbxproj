@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028A389EC2426B8F0FAF7FB3 /* Pods_onUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFA3D6A6A3259A1EC2FB514 /* Pods_onUber.framework */; };
+		1D1F56CE204B2F6D0029D68D /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F56CD204B2F6D0029D68D /* UIViewExt.swift */; };
+		1D1F56D0204B36E90029D68D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F56CF204B36E90029D68D /* LoginVC.swift */; };
+		1D1F59F1204D820900C7B073 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F59F0204D820900C7B073 /* Alert.swift */; };
+		1D2D7E98204B3882006CD746 /* KeyboardBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2D7E97204B3882006CD746 /* KeyboardBind.swift */; };
+		1D2D7E9C204B4329006CD746 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D2D7E9B204B4329006CD746 /* GoogleService-Info.plist */; };
+		1D315882205289270071CD6F /* PickupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D315881205289270071CD6F /* PickupVC.swift */; };
+		1D315884205289D90071CD6F /* RoundedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D315883205289D90071CD6F /* RoundedMapView.swift */; };
+		1D3158862052B7130071CD6F /* DispatchQueExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3158852052B7130071CD6F /* DispatchQueExt.swift */; };
 		1D359A682049C16000DAB1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D359A672049C16000DAB1B1 /* AppDelegate.swift */; };
-		1D359A6A2049C16000DAB1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D359A692049C16000DAB1B1 /* ViewController.swift */; };
+		1D359A6A2049C16000DAB1B1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D359A692049C16000DAB1B1 /* HomeVC.swift */; };
 		1D359A6D2049C16000DAB1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D359A6B2049C16000DAB1B1 /* Main.storyboard */; };
 		1D359A6F2049C16000DAB1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D359A6E2049C16000DAB1B1 /* Assets.xcassets */; };
 		1D359A722049C16000DAB1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D359A702049C16000DAB1B1 /* LaunchScreen.storyboard */; };
+		1D553A24205174680076A4DD /* PassengerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D553A23205174680076A4DD /* PassengerAnnotation.swift */; };
+		1D5FC01820500EB500E5AE7E /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FC01720500EB500E5AE7E /* UpdateService.swift */; };
+		1D5FC01A20502B1C00E5AE7E /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FC01920502B1C00E5AE7E /* DriverAnnotation.swift */; };
+		1DA14318204D43B80061E856 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA14317204D43B80061E856 /* DataService.swift */; };
+		1DFA1D21204A99EF00EED39C /* ButtonRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D20204A99EF00EED39C /* ButtonRadius.swift */; };
+		1DFA1D23204A9A0200EED39C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D22204A9A0200EED39C /* CircleImage.swift */; };
+		1DFA1D25204A9F4900EED39C /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D24204A9F4900EED39C /* ShadowView.swift */; };
+		1DFA1D27204AA09C00EED39C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D26204AA09C00EED39C /* GradientView.swift */; };
+		1DFA1D29204AA50D00EED39C /* RadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D28204AA50D00EED39C /* RadiusView.swift */; };
+		1DFA1D30204AB18600EED39C /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D2F204AB18600EED39C /* LeftSidePanelVC.swift */; };
+		1DFA1D32204AB1B800EED39C /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D31204AB1B800EED39C /* ContainerVC.swift */; };
+		1DFA1D35204ABA3100EED39C /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA1D34204ABA3100EED39C /* CenterVCDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1F56CD204B2F6D0029D68D /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		1D1F56CF204B36E90029D68D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1D1F59F0204D820900C7B073 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		1D2D7E97204B3882006CD746 /* KeyboardBind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBind.swift; sourceTree = "<group>"; };
+		1D2D7E9B204B4329006CD746 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D315881205289270071CD6F /* PickupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupVC.swift; sourceTree = "<group>"; };
+		1D315883205289D90071CD6F /* RoundedMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedMapView.swift; sourceTree = "<group>"; };
+		1D3158852052B7130071CD6F /* DispatchQueExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueExt.swift; sourceTree = "<group>"; };
 		1D359A642049C16000DAB1B1 /* onUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D359A672049C16000DAB1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D359A692049C16000DAB1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D359A692049C16000DAB1B1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		1D359A6C2049C16000DAB1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D359A6E2049C16000DAB1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D359A712049C16000DAB1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D359A732049C16000DAB1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D553A23205174680076A4DD /* PassengerAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerAnnotation.swift; sourceTree = "<group>"; };
+		1D5FC01720500EB500E5AE7E /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		1D5FC01920502B1C00E5AE7E /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		1DA14317204D43B80061E856 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1DFA1D20204A99EF00EED39C /* ButtonRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRadius.swift; sourceTree = "<group>"; };
+		1DFA1D22204A9A0200EED39C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1DFA1D24204A9F4900EED39C /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		1DFA1D26204AA09C00EED39C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		1DFA1D28204AA50D00EED39C /* RadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusView.swift; sourceTree = "<group>"; };
+		1DFA1D2F204AB18600EED39C /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		1DFA1D31204AB1B800EED39C /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		1DFA1D34204ABA3100EED39C /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		7DFA3D6A6A3259A1EC2FB514 /* Pods_onUber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onUber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882FEF3E251220FA7AD2651C /* Pods-onUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-onUber/Pods-onUber.debug.xcconfig"; sourceTree = "<group>"; };
+		EB4488CCD5EDB1B4F0B76EF1 /* Pods-onUber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onUber.release.xcconfig"; path = "Pods/Target Support Files/Pods-onUber/Pods-onUber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028A389EC2426B8F0FAF7FB3 /* Pods_onUber.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D1F56CC204B2ED80029D68D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F56CD204B2F6D0029D68D /* UIViewExt.swift */,
+				1D3158852052B7130071CD6F /* DispatchQueExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1D1F59EF204D81B500C7B073 /* Funcs */ = {
+			isa = PBXGroup;
+			children = (
+				1D1F59F0204D820900C7B073 /* Alert.swift */,
+			);
+			path = Funcs;
+			sourceTree = "<group>";
+		};
 		1D359A5B2049C16000DAB1B1 = {
 			isa = PBXGroup;
 			children = (
 				1D359A662049C16000DAB1B1 /* onUber */,
 				1D359A652049C16000DAB1B1 /* Products */,
+				BDF271D42021D71EA0626A73 /* Pods */,
+				8ACEEFC349F8ADD96C10B954 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +118,90 @@
 		1D359A662049C16000DAB1B1 /* onUber */ = {
 			isa = PBXGroup;
 			children = (
+				1D2D7E9B204B4329006CD746 /* GoogleService-Info.plist */,
+				1D1F59EF204D81B500C7B073 /* Funcs */,
+				1D1F56CC204B2ED80029D68D /* Extensions */,
+				1DFA1D33204ABA2000EED39C /* Protocols */,
+				1DFA1D1F204A99D900EED39C /* Model */,
+				1DFA1D1E204A99D400EED39C /* View */,
+				1DFA1D1D204A99CD00EED39C /* Controller */,
+				1DFA1D1C204A99C700EED39C /* Services */,
 				1D359A672049C16000DAB1B1 /* AppDelegate.swift */,
-				1D359A692049C16000DAB1B1 /* ViewController.swift */,
 				1D359A6B2049C16000DAB1B1 /* Main.storyboard */,
 				1D359A6E2049C16000DAB1B1 /* Assets.xcassets */,
 				1D359A702049C16000DAB1B1 /* LaunchScreen.storyboard */,
 				1D359A732049C16000DAB1B1 /* Info.plist */,
 			);
 			path = onUber;
+			sourceTree = "<group>";
+		};
+		1DFA1D1C204A99C700EED39C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1DA14317204D43B80061E856 /* DataService.swift */,
+				1D5FC01720500EB500E5AE7E /* UpdateService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1DFA1D1D204A99CD00EED39C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D359A692049C16000DAB1B1 /* HomeVC.swift */,
+				1DFA1D2F204AB18600EED39C /* LeftSidePanelVC.swift */,
+				1DFA1D31204AB1B800EED39C /* ContainerVC.swift */,
+				1D1F56CF204B36E90029D68D /* LoginVC.swift */,
+				1D315881205289270071CD6F /* PickupVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1DFA1D1E204A99D400EED39C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DFA1D20204A99EF00EED39C /* ButtonRadius.swift */,
+				1DFA1D22204A9A0200EED39C /* CircleImage.swift */,
+				1DFA1D24204A9F4900EED39C /* ShadowView.swift */,
+				1DFA1D26204AA09C00EED39C /* GradientView.swift */,
+				1DFA1D28204AA50D00EED39C /* RadiusView.swift */,
+				1D2D7E97204B3882006CD746 /* KeyboardBind.swift */,
+				1D5FC01920502B1C00E5AE7E /* DriverAnnotation.swift */,
+				1D553A23205174680076A4DD /* PassengerAnnotation.swift */,
+				1D315883205289D90071CD6F /* RoundedMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DFA1D1F204A99D900EED39C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DFA1D33204ABA2000EED39C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1DFA1D34204ABA3100EED39C /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8ACEEFC349F8ADD96C10B954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA3D6A6A3259A1EC2FB514 /* Pods_onUber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF271D42021D71EA0626A73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				882FEF3E251220FA7AD2651C /* Pods-onUber.debug.xcconfig */,
+				EB4488CCD5EDB1B4F0B76EF1 /* Pods-onUber.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D359A762049C16000DAB1B1 /* Build configuration list for PBXNativeTarget "onUber" */;
 			buildPhases = (
+				683B079C37EAC3A28A7B0590 /* [CP] Check Pods Manifest.lock */,
 				1D359A602049C16000DAB1B1 /* Sources */,
 				1D359A612049C16000DAB1B1 /* Frameworks */,
 				1D359A622049C16000DAB1B1 /* Resources */,
+				2CE6DF6A52676E37AD13DA94 /* [CP] Embed Pods Frameworks */,
+				48354A66CA3147784F69CE38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +239,7 @@
 				TargetAttributes = {
 					1D359A632049C16000DAB1B1 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,18 +270,100 @@
 				1D359A722049C16000DAB1B1 /* LaunchScreen.storyboard in Resources */,
 				1D359A6F2049C16000DAB1B1 /* Assets.xcassets in Resources */,
 				1D359A6D2049C16000DAB1B1 /* Main.storyboard in Resources */,
+				1D2D7E9C204B4329006CD746 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CE6DF6A52676E37AD13DA94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-onUber/Pods-onUber-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-onUber/Pods-onUber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48354A66CA3147784F69CE38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-onUber/Pods-onUber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683B079C37EAC3A28A7B0590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onUber-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D359A602049C16000DAB1B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D359A6A2049C16000DAB1B1 /* ViewController.swift in Sources */,
+				1DFA1D35204ABA3100EED39C /* CenterVCDelegate.swift in Sources */,
+				1D553A24205174680076A4DD /* PassengerAnnotation.swift in Sources */,
+				1DA14318204D43B80061E856 /* DataService.swift in Sources */,
+				1D5FC01820500EB500E5AE7E /* UpdateService.swift in Sources */,
+				1D5FC01A20502B1C00E5AE7E /* DriverAnnotation.swift in Sources */,
+				1D359A6A2049C16000DAB1B1 /* HomeVC.swift in Sources */,
+				1D1F59F1204D820900C7B073 /* Alert.swift in Sources */,
+				1D1F56D0204B36E90029D68D /* LoginVC.swift in Sources */,
+				1DFA1D30204AB18600EED39C /* LeftSidePanelVC.swift in Sources */,
+				1DFA1D29204AA50D00EED39C /* RadiusView.swift in Sources */,
+				1DFA1D32204AB1B800EED39C /* ContainerVC.swift in Sources */,
+				1D3158862052B7130071CD6F /* DispatchQueExt.swift in Sources */,
+				1D315882205289270071CD6F /* PickupVC.swift in Sources */,
+				1D1F56CE204B2F6D0029D68D /* UIViewExt.swift in Sources */,
+				1D315884205289D90071CD6F /* RoundedMapView.swift in Sources */,
+				1DFA1D23204A9A0200EED39C /* CircleImage.swift in Sources */,
+				1DFA1D27204AA09C00EED39C /* GradientView.swift in Sources */,
+				1DFA1D21204A99EF00EED39C /* ButtonRadius.swift in Sources */,
+				1D2D7E98204B3882006CD746 /* KeyboardBind.swift in Sources */,
 				1D359A682049C16000DAB1B1 /* AppDelegate.swift in Sources */,
+				1DFA1D25204A9F4900EED39C /* ShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +498,18 @@
 		};
 		1D359A772049C16000DAB1B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882FEF3E251220FA7AD2651C /* Pods-onUber.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXPSE4XM9X;
 				INFOPLIST_FILE = onUber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiniaTech.onUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +517,17 @@
 		};
 		1D359A782049C16000DAB1B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4488CCD5EDB1B4F0B76EF1 /* Pods-onUber.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXPSE4XM9X;
 				INFOPLIST_FILE = onUber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiniaTech.onUber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
